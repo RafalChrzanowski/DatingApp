@@ -2011,11 +2011,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Kszanu\\DatingApp\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Kszanu\\DatingApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Users\\Kszanu\\DatingApp\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Kszanu\\DatingApp\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Kszanu\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Kszanu\\DatingApp\\API\\obj\\",
+      "outputPath": "C:\\Users\\Kszanu\\DatingApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kszanu\\AppData\\Roaming\\NuGet\\NuGet.Config"
