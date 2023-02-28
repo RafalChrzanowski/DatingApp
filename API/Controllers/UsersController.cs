@@ -4,6 +4,7 @@ using API.Data.Migrations;
 using API.DTOs;
 using API.Entities;
 using API.Extensions;
+using API.Helpers;
 using API.Interface;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
@@ -26,11 +27,23 @@ namespace API.Controllers
             _mapper = mapper;
             _userRepository = userRepository;
         }
+        
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
+        public async Task<ActionResult<PagedList<MemberDto>>> GetUsers([FromQuery]UserParams userParams)
         {
-            var users = await _userRepository.GetMemberAsync();
 
+            var currentUser = await _userRepository.GetUserByUsernameAsync(User.GetUsername());
+            userParams.CurrentUsername = currentUser.UserName;
+
+            if(string.IsNullOrEmpty(userParams.Gender))
+            {
+                userParams.Gender = currentUser.Gender == "male" ? "female" : "male";
+            }
+
+            var users = await _userRepository.GetMemberAsync(userParams);
+
+            Response.AddPaginationHeader(new PaginationHeader(users.CurrentPage, users.PageSize, users.TotalCount, users.TotalPages));
+            
             return Ok(users);
         }
 
@@ -98,7 +111,7 @@ namespace API.Controllers
 
             if (photo == null) return NotFound();
 
-            if (photo.IsMain) return BadRequest("this is alredy your main photo");
+            if (photo.IsMain) return BadRequest("this is already your main photo");
 
             var currentMain = user.Photos.FirstOrDefault(x => x.IsMain);
             if(currentMain != null) currentMain.IsMain = false;

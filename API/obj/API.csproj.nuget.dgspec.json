@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kszanu\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kszanu\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kszanu\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Kszanu\\DatingApp\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Kszanu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kszanu\\DatingApp\\API\\obj\\",
+        "projectPath": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Surface\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kszanu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Surface\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -47,6 +47,10 @@
               "version": "[1.20.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
               "version": "[7.0.2, )"
             },
