@@ -6,3 +6,4 @@ node_modules
 .angular
 /API/obj
 /API/bin
+API/obj/Debug/net7.0/API.assets.cache
