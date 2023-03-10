@@ -2346,19 +2346,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kszanu\\.nuget\\packages\\": {}
+    "C:\\Users\\Surface\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Kszanu\\DatingApp\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Users\\Kszanu\\DatingApp\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\Kszanu\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Kszanu\\DatingApp\\API\\obj\\",
+      "projectPath": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\Surface\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kszanu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Surface\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
