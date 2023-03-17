@@ -13,7 +13,6 @@ builder.Services.AddControllers();
 builder.Services.AddApplicationServices(builder.Configuration);
 builder.Services.AddIdentityServices(builder.Configuration);
 
-var app = builder.Build();
 var connString="";
 if (builder.Environment.IsDevelopment()) 
     connString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -39,6 +38,9 @@ builder.Services.AddDbContext<DataContext>(opt =>
 {
     opt.UseNpgsql(connString);
 });
+
+var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 app.UseCors(builder => builder

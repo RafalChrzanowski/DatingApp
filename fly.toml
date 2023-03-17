@@ -1,4 +1,4 @@
-# fly.toml file generated for datingapp-kszanu on 2023-03-17T17:53:52+01:00
+# fly.toml file generated for datingapp-kszanu on 2023-03-17T18:50:45+01:00
 
 app = "datingapp-kszanu"
 kill_signal = "SIGINT"
@@ -10,9 +10,9 @@ processes = []
   image = "kszanu/datingapp:latest"
 
 [env]
-  ASPNETCORE_URLS = "http://+:8080"
-  CloudinarySettings__ApiKey = "927368155393979"
-  CloudinarySettings__CloudName = "dengucfbd"
+  ASPNETCORE_URLS="http://+:8080"
+  CloudinarySettings__CloudName="dengucfbd"
+  CloudinarySettings__ApiKey="927368155393979"
 
 [experimental]
   auto_rollback = true

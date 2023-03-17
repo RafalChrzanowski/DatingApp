@@ -13,6 +13,7 @@ namespace API.Extensions
         IConfiguration config)
         {
             services.AddCors();
+
             services.AddScoped<ITokenService, TokenService>();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.Configure<CloudinarySettings>(config.GetSection("CloudinarySettings"));
