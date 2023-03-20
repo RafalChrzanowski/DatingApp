@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "AutoMapper/12.0.0": {
+      "AutoMapper/12.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0"
@@ -999,15 +999,15 @@
     }
   },
   "libraries": {
-    "AutoMapper/12.0.0": {
-      "sha512": "0Rmg0zI5AFu1O/y//o9VGyhxKjhggWpk9mOA1tp0DEVx40c61bs+lnQv+0jUq8XbniF7FKgIVvI1perqiMtLrA==",
+    "AutoMapper/12.0.1": {
+      "sha512": "hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
       "type": "package",
-      "path": "automapper/12.0.0",
+      "path": "automapper/12.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "automapper.12.0.0.nupkg.sha512",
+        "automapper.12.0.1.nupkg.sha512",
         "automapper.nuspec",
         "icon.png",
         "lib/netstandard2.1/AutoMapper.dll",
@@ -2454,6 +2454,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
       "CloudinaryDotNet >= 1.20.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.2",
@@ -2466,19 +2467,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Surface\\.nuget\\packages\\": {}
+    "C:\\Users\\Kszanu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\API.csproj",
+      "projectUniqueName": "c:\\Users\\Kszanu\\DatingApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\Surface\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\obj\\",
+      "projectPath": "c:\\Users\\Kszanu\\DatingApp\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\Kszanu\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Kszanu\\DatingApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Surface\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Kszanu\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -2502,6 +2503,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[12.0.1, )"
+          },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[12.0.0, )"

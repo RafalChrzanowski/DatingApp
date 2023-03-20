@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\Kszanu\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\Kszanu\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Kszanu\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Surface\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\obj\\",
+        "projectPath": "C:\\Users\\Kszanu\\DatingApp\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Kszanu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kszanu\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Surface\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Kszanu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -38,6 +38,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"

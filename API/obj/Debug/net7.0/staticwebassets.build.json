@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PLpBvSTqhOnWwsC+6DAd7a8LmhslJXI1uMTqRchLSPk=",
+  "Hash": "8RA90Mml3FWRxjWzMUW6P/o/Hz9/57gYa7+01wDepkI=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API\\wwwroot",
       "Source": "API",
-      "ContentRoot": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\3rdpartylicenses.txt",
+      "Identity": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\3rdpartylicenses.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "3rdpartylicenses.txt",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\3rdpartylicenses.txt"
     },
     {
-      "Identity": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\assets\\user.png",
+      "Identity": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\assets\\user.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/user.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\user.png"
     },
     {
-      "Identity": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\favicon.ico",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\fontawesome-webfont.2b13baa7dd4f54c9.eot",
+      "Identity": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\fontawesome-webfont.2b13baa7dd4f54c9.eot",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.2b13baa7dd4f54c9.eot",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\fontawesome-webfont.2b13baa7dd4f54c9.eot"
     },
     {
-      "Identity": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\fontawesome-webfont.8a7cb27d142e3e19.ttf",
+      "Identity": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\fontawesome-webfont.8a7cb27d142e3e19.ttf",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.8a7cb27d142e3e19.ttf",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\fontawesome-webfont.8a7cb27d142e3e19.ttf"
     },
     {
-      "Identity": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\fontawesome-webfont.cf011583fb81df9f.woff",
+      "Identity": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\fontawesome-webfont.cf011583fb81df9f.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.cf011583fb81df9f.woff",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\fontawesome-webfont.cf011583fb81df9f.woff"
     },
     {
-      "Identity": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\fontawesome-webfont.da909aa098b0ee2d.svg",
+      "Identity": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\fontawesome-webfont.da909aa098b0ee2d.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.da909aa098b0ee2d.svg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\fontawesome-webfont.da909aa098b0ee2d.svg"
     },
     {
-      "Identity": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\fontawesome-webfont.e9955780856cf8aa.woff2",
+      "Identity": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\fontawesome-webfont.e9955780856cf8aa.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.e9955780856cf8aa.woff2",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\fontawesome-webfont.e9955780856cf8aa.woff2"
     },
     {
-      "Identity": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\index.html",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\main.a5a39a57e18e1633.js",
+      "Identity": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\main.a5a39a57e18e1633.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "main.a5a39a57e18e1633.js",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\main.a5a39a57e18e1633.js"
     },
     {
-      "Identity": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\polyfills.d7bd9d69524573e2.js",
+      "Identity": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\polyfills.d7bd9d69524573e2.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "polyfills.d7bd9d69524573e2.js",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\polyfills.d7bd9d69524573e2.js"
     },
     {
-      "Identity": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\runtime.01fec06f14767966.js",
+      "Identity": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\runtime.01fec06f14767966.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "runtime.01fec06f14767966.js",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\runtime.01fec06f14767966.js"
     },
     {
-      "Identity": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\styles.8c56af118be7e52b.css",
+      "Identity": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\styles.8c56af118be7e52b.css",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Surface\\DatingApp\\DatingApp\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kszanu\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "styles.8c56af118be7e52b.css",
       "AssetKind": "All",
